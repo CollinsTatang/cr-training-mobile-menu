@@ -37,6 +37,7 @@ header {
 
 .mobile-menu {
   display: unset;
+  background: #3c3a39;
   position: absolute;
   height: 100vh;
   width: 100%;
