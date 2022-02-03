@@ -27,8 +27,27 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+.desktop-nav, .desktop-nav ul {
   display: none;
+}
+
+.mobile-menu ul {
+  display: unset;
+}
+
+.mobile-menu {
+  display: unset;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 18px 15px 554px 28px;
+}
+
+.mobile-menu button {
+  float: right;
 }
 
 #logo {
@@ -444,11 +463,11 @@ textarea {
     display: none;
   }
 
-  #desktop-nav {
+  .desktop-nav {
     display: block;
   }
 
-  #desktop-nav ul {
+  .desktop-nav ul {
     display: flex;
     margin-right: 10vw;
   }
