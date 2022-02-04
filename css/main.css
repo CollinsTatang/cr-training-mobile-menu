@@ -460,7 +460,8 @@ textarea {
     justify-content: center;
   }
 
-  .menu-bars {
+  .menu-bars,
+  .menu-times {
     display: none;
   }
 
