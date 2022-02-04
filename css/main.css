@@ -48,6 +48,18 @@ header {
   padding: 18px 15px 554px 28px;
 }
 
+li {
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
 .mobile-menu li {
   border-bottom: 1px solid white;
   margin-bottom: 10px;
@@ -261,18 +273,6 @@ main {
   bottom: 0;
   left: 0;
   right: 0;
-}
-
-li {
-  list-style: none;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 43px;
-  text-align: center;
-  color: #fff;
-  padding: 5px;
 }
 
 .card-stacks li {
