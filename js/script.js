@@ -3,6 +3,7 @@ let activeMenuButton = document.querySelector('.menu-button');
 const hamburgerButton = document.querySelector('header button');
 const menu = document.querySelector('nav');
 const closeButton = menu.querySelector('button');
+let menuItems = menu.querySelectorAll('a');
 
 // When mobile menu is collapsed/expanded, the active menu button
 // (i.e. the button that should receive action) is the hamburger/close button respectively
@@ -24,6 +25,7 @@ function checkView() {
   if (hamburgerView.matches) {
     // Clicking on active menu button / on menu items toggles the mobile menu
     activeMenuButton.addEventListener('click', switchActiveMenuButton);
+    menuItems.forEach((menuItem) => menuItem.addEventListener('click', switchActiveMenuButton));
   }
 }
 
