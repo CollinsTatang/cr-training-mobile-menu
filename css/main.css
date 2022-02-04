@@ -33,6 +33,7 @@ header {
 
 .mobile-menu ul {
   display: unset;
+  margin-top: 20px;
 }
 
 .mobile-menu {
@@ -45,6 +46,21 @@ header {
   left: 0;
   z-index: 999;
   padding: 18px 15px 554px 28px;
+}
+
+.mobile-menu li {
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.mobile-menu a {
+  color: white;
+  font-weight: bold;
+}
+
+.top-menu {
+  margin-top: 50px;
 }
 
 .mobile-menu button {
