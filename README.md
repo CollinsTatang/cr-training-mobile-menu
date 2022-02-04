@@ -6,10 +6,6 @@
 
 ![screenshot](screenshot.png)
 
-This project is part of an exercise for the code reviewer training at Microverse.
-
-The initial code of a portfolio website is given, and a mobile menu has to be built into it.
-
 Please note that bugs are intentional so that the other student reviewing the code has things to point out.
 
 ## Built With
